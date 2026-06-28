@@ -9,12 +9,12 @@ const certifications = [
     title: "Deloitte Australia Data Analytics Job Simulation",
     org: "Forage (Feb 2026)",
     details: [
-      "Built interactive dashboard using Tableau",
-      "Used Excel for classification and business insights",
+      "Built an interactive dashboard using Tableau for data-driven insights",
+      "Used Excel for data classification and business intelligence reporting",
     ],
   },
   {
-    title: "Data Science with Python Internship",
+    title: "Data Science with Python Internship Certificate",
     org: "Eisystems Services & Technex'25 IIT BHU (2025)",
     details: [],
   },

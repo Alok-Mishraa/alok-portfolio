@@ -6,10 +6,10 @@ import { GraduationCap } from "lucide-react"
 
 const education = [
   {
-    degree: "B.Tech in Information Technology",
-    institution: "Buddha Institute of Technology",
-    period: "12/2022 – 06/2026",
-    grade: "CGPA: 7.08 / 10",
+    degree: "B.Tech in Computer Science Engineering (Data Science)",
+    institution: "Buddha Institute of Technology (AKTU)",
+    period: "Graduated: June 2026",
+    grade: "CGPA: 7.0 / 10",
   },
   {
     degree: "Intermediate (12th), CBSE",

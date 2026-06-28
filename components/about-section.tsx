@@ -28,12 +28,12 @@ export function AboutSection() {
 
           <div className="rounded-xl border border-border bg-card/50 p-8 backdrop-blur-sm">
             <p className="leading-relaxed text-muted-foreground">
-              I am a B.Tech Information Technology student with hands-on
-              experience in Data Analytics, Machine Learning, and Business
-              Intelligence. I have completed a Data Science Internship at
-              Eisystems Services (Technex&apos;25 IIT BHU), where I worked on sales
-              forecasting using ARIMA models. I am passionate about solving
-              real-world business problems using data-driven approaches.
+              I am a B.Tech Computer Science Engineering (Data Science) graduate from Buddha Institute of Technology (AKTU),
+              currently working as a Data Analyst Associate at Insights Route. I bring hands-on experience in SQL, Python,
+              Excel, Power BI, and Tableau, with a strong focus on KPI Reporting, Dashboard Development, Data Cleaning,
+              Exploratory Data Analysis, and Business Intelligence. Previously, I completed a Data Science internship at
+              Eisystems Services (Technex&apos;25 IIT BHU), where I worked on sales forecasting using ARIMA models. I am
+              passionate about turning raw data into meaningful insights that drive data-driven decision-making.
             </p>
           </div>
         </div>

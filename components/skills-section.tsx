@@ -8,36 +8,42 @@ const skillCategories = [
   {
     title: "Programming & Querying",
     icon: Code,
-    skills: ["Python", "Basic SQL", "C"],
+    skills: ["Python", "SQL", "C"],
   },
   {
-    title: "Libraries & Frameworks",
+    title: "Libraries",
     icon: Database,
     skills: [
       "Pandas",
       "NumPy",
       "Matplotlib",
-      "Seaborn",
       "Statsmodels",
-      "Scikit-Learn",
     ],
   },
   {
-    title: "Tools & Platforms",
+    title: "BI & Visualization",
     icon: Wrench,
     skills: [
-      "Jupyter Notebook",
-      "PyCharm",
-      "VS Code",
-      "Excel",
-      "Power BI",
+      "Power BI (DAX)",
       "Tableau",
+      "Excel",
     ],
   },
   {
-    title: "Soft Skills",
+    title: "Tools",
     icon: Users,
-    skills: ["Problem Solving", "Communication", "Teamwork"],
+    skills: ["MySQL", "Jupyter Notebook", "VS Code", "PyCharm"],
+  },
+  {
+    title: "Analytical Skills",
+    icon: Code,
+    skills: [
+      "Data Cleaning",
+      "Exploratory Data Analysis (EDA)",
+      "KPI Reporting",
+      "Statistical Analysis",
+      "Business Intelligence",
+    ],
   },
 ]
 
@@ -63,7 +69,7 @@ export function SkillsSection() {
             </h2>
           </div>
 
-          <div className="grid gap-6 sm:grid-cols-2">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {skillCategories.map((cat, i) => (
               <div
                 key={cat.title}

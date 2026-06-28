@@ -6,53 +6,35 @@ import { FolderGit2, ExternalLink } from "lucide-react"
 
 const projects = [
   {
-    title: "Blinkit Sales Analysis Dashboard",
+    title: "Retail Sales Analytics Dashboard",
     type: "Power BI | Business Intelligence",
     github:
       "https://github.com/Alok-Mishraa/Blinkit-Sales-Analysis-Power-BI-Dashboard-",
     description:
-      "Developed an interactive Power BI dashboard analyzing $1.20M in sales data across multiple outlet types and categories.",
+      "Developed an interactive Power BI dashboard analyzing $1.20M in sales data across multiple outlet types, locations, and product categories to surface actionable business insights.",
     highlights: [
-      "Total Sales: $1.20M",
-      "8,523 items analyzed",
-      "Identified Tier 3 cities as highest revenue contributors",
-      "Found low-fat products outperform regular products",
-      "Supermarket Type 1 generated majority revenue",
+      "Analyzed 8,523+ items totaling $1.20M in sales across outlet types",
+      "Identified Tier 3 cities as the highest revenue contributors",
+      "Found low-fat products outperform regular products in sales",
+      "Built KPI cards and dynamic filters for outlet and category-level drill-down",
+      "Used DAX measures and Power Query for data modeling and transformation",
     ],
-    tools: ["Power BI", "Power Query", "DAX", "Data Modeling"],
+    tools: ["Power BI", "Power Query", "DAX", "Data Modeling", "Excel"],
   },
   {
-    title: "Telco Customer Churn Prediction",
-    type: "Machine Learning | Classification",
+    title: "Travel & Passport Analytics Dashboard",
+    type: "Python • MySQL • Power BI",
     github:
-      "https://github.com/Alok-Mishraa/Customer-Churn-Prediction-End-to-End-Project",
+      "https://github.com/Alok-Mishraa/passport_travel_project",
     description:
-      "Built an end-to-end machine learning pipeline to predict customer churn using Logistic Regression and Random Forest models.",
+      "Engineered an end-to-end analytics pipeline processing 100K+ travel records using Python and MySQL, with an interactive Power BI dashboard for business insights.",
     highlights: [
-      "Data preprocessing & encoding",
-      "Feature scaling",
-      "Model evaluation using Accuracy, F1, ROC-AUC",
-      "Confusion matrix visualization",
-      "Business insights for customer retention",
+      "Engineered analytics pipeline processing 100K+ synthetic travel records using Python and MySQL",
+      "Performed SQL-based trend analysis to uncover travel patterns and top destinations",
+      "Built interactive Power BI dashboard featuring KPI cards and monthly travel insights",
+      "Identified high-demand countries and key traveler segments using data visualization",
     ],
-    tools: ["Python", "Pandas", "NumPy", "Scikit-Learn", "Matplotlib", "Seaborn"],
-  },
-  {
-    title: "Superstore Sales Analysis & Forecasting",
-    type: "Time Series Forecasting | ARIMA",
-    github:
-      "https://github.com/Alok-Mishraa/Sales-Data-Analysis-Forecasting-Project",
-    description:
-      "Performed sales analysis and forecasting using ARIMA time-series modeling with automated validation checks.",
-    highlights: [
-      "Category-wise sales analysis",
-      "Region-wise profit analysis",
-      "Monthly sales resampling",
-      "ARIMA model selection based on AIC",
-      "6-month future sales forecasting",
-      "Built-in automated tests for validation",
-    ],
-    tools: ["Python", "Pandas", "NumPy", "Statsmodels", "Matplotlib", "Seaborn"],
+    tools: ["Python", "MySQL", "SQL", "Power BI", "Pandas", "NumPy"],
   },
 ]
 
@@ -78,7 +60,7 @@ export function ProjectsSection() {
             </h2>
           </div>
 
-          <div className="grid gap-6 lg:grid-cols-3">
+          <div className="grid gap-6 lg:grid-cols-2">
             {projects.map((project, i) => (
               <div
                 key={project.title}

@@ -26,35 +26,66 @@ export function ExperienceSection() {
             </h2>
           </div>
 
-          <div className="rounded-xl border border-border bg-card/50 p-8 backdrop-blur-sm transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5">
-            <div className="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between">
-              <div>
-                <h3 className="text-lg font-semibold text-foreground">
-                  Data Science Intern
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  Eisystems Services | Technex&apos;25 IIT (BHU) Varanasi (Remote)
-                </p>
+          <div className="flex flex-col gap-6">
+            {/* Data Analyst Associate */}
+            <div className="rounded-xl border border-border bg-card/50 p-8 backdrop-blur-sm transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5">
+              <div className="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between">
+                <div>
+                  <h3 className="text-lg font-semibold text-foreground">
+                    Data Analyst Associate
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    Insights Route
+                  </p>
+                </div>
+                <span className="mt-1 text-xs font-mono text-primary sm:mt-0 shrink-0">
+                  June 2026 – Present
+                </span>
               </div>
-              <span className="mt-1 text-xs font-mono text-primary sm:mt-0 shrink-0">
-                July 2025 – August 2025
-              </span>
+
+              <ul className="mt-6 flex flex-col gap-3">
+                {[
+                  "Write SQL queries for data extraction, validation and cleaning.",
+                  "Build Power BI dashboards and Excel reports for KPI tracking.",
+                  "Perform exploratory data analysis and trend analysis.",
+                  "Support business reporting and data-driven decision-making.",
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
+                    <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
             </div>
 
-            <ul className="mt-6 flex flex-col gap-3">
-              {[
-                "Completed 6-week Data Science internship",
-                "Conducted Sales Forecasting project using ARIMA models",
-                "Built and evaluated time series models",
-                "Generated visualizations and forecasting reports",
-                "Delivered strategic recommendations based on data insights",
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
-                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                  {item}
-                </li>
-              ))}
-            </ul>
+            {/* Internship */}
+            <div className="rounded-xl border border-border bg-card/50 p-8 backdrop-blur-sm transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5">
+              <div className="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between">
+                <div>
+                  <h3 className="text-lg font-semibold text-foreground">
+                    Data Science Intern
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    Eisystems Services | Technex&apos;25 IIT (BHU) Varanasi (Remote)
+                  </p>
+                </div>
+                <span className="mt-1 text-xs font-mono text-primary sm:mt-0 shrink-0">
+                  July 2025 – August 2025
+                </span>
+              </div>
+
+              <ul className="mt-6 flex flex-col gap-3">
+                {[
+                  "Built a Sales Forecasting system using ARIMA models on historical time-series data.",
+                  "Performed data preprocessing, EDA, and model evaluation using ACF, PACF, and residual diagnostics.",
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
+                    <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>

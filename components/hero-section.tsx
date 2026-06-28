@@ -33,11 +33,12 @@ export function HeroSection() {
           Alok Mishra
         </h1>
         <p className="mt-4 text-lg font-medium text-muted-foreground sm:text-xl">
-          Aspiring Data Analyst | Data Science Enthusiast
+          Data Analyst Associate | Business Intelligence & Data Analytics
         </p>
         <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground">
-          I transform data into actionable insights using Python, Machine
-          Learning, and Business Intelligence tools.
+          Currently working as a Data Analyst Associate at Insights Route, I
+          transform data into actionable insights using SQL, Python, Power BI,
+          and Business Intelligence tools.
         </p>
 
         {/* CTA Buttons */}
